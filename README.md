@@ -1,63 +1,61 @@
 <div align="center">
-  <!-- Banner Superior -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:002D62,100:A970FF&height=200&section=header&text=Enterprise%20Cloud%20Platform&fontSize=40&fontColor=ffffff&animation=fadeIn" width="100%"/>
+  <!-- BANNER SUPERIOR CON PALETA ESTRICTA -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:002D62,100:A970FF&height=180&section=header&text=Oscar%20Ivan&fontSize=55&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
-  <!-- Subtítulo Animado -->
+  <!-- ROLES PROFESIONALES ANIMADOS -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00B4DB&center=true&vCenter=true&random=false&width=800&lines=Cloud+Engineering+Platform;Multi-Cloud:+Azure+%7C+AWS+%7C+GCP;Infrastructure+as+Code+(IaC);DevOps+Automation+&+Security" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00B4DB&center=true&vCenter=true&random=false&width=800&lines=Ingeniero+de+Sistemas+%7C+Backend+Developer;Arquitecto+Cloud+(AWS+%7C+Azure+%7C+GCP);Auditor%C3%ADa+IT+y+Seguridad+(ISO+27001);IoT+&+Automatización+de+Sistemas" alt="Roles" />
   </a>
   
-  <p><i>Solución nativa de la nube moderna, escalable, segura y de alta disponibilidad.</i></p>
+  <p><i>Diseñando infraestructura en la nube escalable, lógica de negocio robusta y conectando el mundo físico mediante IoT.</i></p>
 
-  <!-- Insignias de Estado y Tecnologías (Homogeneizadas) -->
+  <!-- ENLACES DE CONTACTO PREMIUM -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Azure-0D1117?style=for-the-badge&logo=microsoftazure&logoColor=00B4DB&borderColor=002D62"/>
-    <img src="https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazonaws&logoColor=A970FF&borderColor=A970FF"/>
-    <img src="https://img.shields.io/badge/GCP-0D1117?style=for-the-badge&logo=googlecloud&logoColor=00B4DB&borderColor=002D62"/>
-    <img src="https://img.shields.io/badge/Kubernetes-0D1117?style=for-the-badge&logo=kubernetes&logoColor=A970FF&borderColor=A970FF"/>
-    <img src="https://img.shields.io/badge/Terraform-0D1117?style=for-the-badge&logo=terraform&logoColor=00B4DB&borderColor=002D62"/>
+    <a href="https://linkedin.com/in/tu-perfil">
+      <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00B4DB&borderColor=002D62"/>
+    </a>
+    <a href="mailto:tu-correo@email.com">
+      <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A970FF&borderColor=A970FF"/>
+    </a>
   </p>
 </div>
 
+<br>
+
 ---
 
-### <img src="https://api.iconify.design/lucide/target.svg?color=%23A970FF" width="24" style="vertical-align: middle;"> Resumen del Proyecto
-
-Este repositorio contiene el código fuente y la configuración de una plataforma cloud enfocada en resiliencia y automatización. Los pilares principales son:
-
-- **Escalabilidad y Alta Disponibilidad (HA)**
-- **Seguridad y Segmentación de Red** (Implementación de políticas Zero-Trust)
-- **Automatización CI/CD**
-- **Observabilidad Integral**
-- **Optimización de Costos** (FinOps)
+### <img src="https://api.iconify.design/lucide/layers.svg?color=%23A970FF" width="24" style="vertical-align: middle;"> Ecosistema Tecnológico
 
 <div align="center">
-  <br>
-  <img src="https://skillicons.dev/icons?i=azure,aws,gcp,terraform,kubernetes,docker,github,linux,prometheus,grafana&theme=dark" alt="Tech Stack" />
-  <br><br>
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,linux,docker,php,laravel,mysql,raspberrypi,figma,postman,git&theme=dark&perline=12" alt="Tech Stack" />
 </div>
+
+<br>
 
 ---
 
-### <img src="https://api.iconify.design/lucide/share-2.svg?color=%23A970FF" width="24" style="vertical-align: middle;"> Arquitectura del Sistema
+### <img src="https://api.iconify.design/lucide/cpu.svg?color=%23A970FF" width="24" style="vertical-align: middle;"> Arquitectura Destacada: Sistema IoT de Asistencia
+
+Como muestra de mi enfoque integral (Hardware -> Backend -> Cloud), presento la arquitectura conceptual de mi proyecto de automatización y gestión de personal:
 
 ```mermaid
 graph TD
-    Client([Internet / Usuarios]) --> WAF[Web Application Firewall]
-    WAF --> LB[Load Balancer]
-    
-    subgraph Kubernetes Cluster [Clúster Kubernetes Multi-Zona]
-        LB --> API[API Gateway / Ingress]
-        API --> SvcA(Microservicio A)
-        API --> SvcB(Microservicio B)
-        API --> SvcC(Microservicio C)
+    subgraph Edge / IoT Layer [Capa Física & IoT]
+        Scanner[Lector QR] --> Pi(Raspberry Pi Zero 2 W)
     end
     
-    subgraph Data Layer [Capa de Persistencia]
-        SvcA --> DB1[(Primary Database)]
-        SvcB --> Cache[(Redis Cache)]
-        DB1 -.-> DB2[(Read Replica)]
+    subgraph Backend / Logic Layer [Capa de Lógica - Laravel]
+        Pi -->|API REST / JSON| API[API Gateway]
+        API --> Auth{Validación / Auth}
+        Auth -->|Token Válido| Controller(Controlador de Asistencia)
+        Controller --> Eloquent[ORM]
     end
     
-    style Kubernetes Cluster fill:#0D1117,stroke:#A970FF,stroke-width:2px,color:#fff
-    style Data Layer fill:#0D1117,stroke:#00B4DB,stroke-width:2px,color:#fff
+    subgraph Data & Cloud Layer [Capa de Datos & Nube]
+        Eloquent --> DB[(MySQL Database)]
+        Controller -.->|Logs & Auditoría| CloudMon[Cloud Monitoring]
+    end
+    
+    style Edge / IoT Layer fill:#0D1117,stroke:#00B4DB,stroke-width:2px,color:#fff
+    style Backend / Logic Layer fill:#0D1117,stroke:#A970FF,stroke-width:2px,color:#fff
+    style Data & Cloud Layer fill:#0D1117,stroke:#002D62,stroke-width:2px,color:#fff
