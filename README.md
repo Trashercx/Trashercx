@@ -1,4 +1,3 @@
-<!-- HEADER: BANNER Y PRESENTACIÓN CON TEMA CYBERPUNK / ESMERALDA-ZAFIRO -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:091921,100:00FF87&height=180&section=header&text=Oscar%20Ivan&fontSize=48&fontColor=ffffff&animation=fadeIn" width="100%" />
 </div>
@@ -25,19 +24,17 @@
       </p>
     </td>
     <td width="40%" align="center" valign="middle">
-      <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop" width="100%" style="border-radius: 10px; border: 1px solid #172F3D; box-shadow: 0 8px 24px rgba(0,0,0,0.7); opacity: 0.9;" alt="Visual Abstract" />
+      <img src="https://raw.githubusercontent.com/Trashercx/Trashercx/main/gif1" width="100%" style="border-radius: 10px; border: 1px solid #172F3D; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" alt="Tech Animation" />
     </td>
   </tr>
 </table>
 
 <br>
 
-<!-- SEPARADOR ANIMADO 1 -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00FF87,100:60A5FA&height=10&section=header" width="100%" />
 </div>
 
-<!-- HEADER ANIMADO PRINCIPAL 1 -->
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=2000&color=60A5FA&center=true&vCenter=true&width=500&lines=CORE+TECHNOLOGIES;INFRASTRUCTURE+%26+STACK" alt="Header Stack" />
@@ -52,12 +49,10 @@
 
 <br>
 
-<!-- SEPARADOR ANIMADO 2 -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:60A5FA,100:00FF87&height=10&section=header" width="100%" />
 </div>
 
-<!-- HEADER ANIMADO PRINCIPAL 2 -->
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=2000&color=00FF87&center=true&vCenter=true&width=500&lines=ENGINEERING+DOMAINS;TECHNICAL+SPECIALIZATION" alt="Header Domains" />
@@ -85,12 +80,10 @@
 
 <br>
 
-<!-- SEPARADOR ANIMADO 3 -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00FF87,100:60A5FA&height=10&section=header" width="100%" />
 </div>
 
-<!-- HEADER ANIMADO PRINCIPAL 3 -->
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=2000&color=60A5FA&center=true&vCenter=true&width=500&lines=TELEMETRY+%26+ANALYTICS;GITHUB+PERFORMANCE" alt="Header Telemetry" />
@@ -116,7 +109,6 @@
 
 <br>
 
-<!-- FOOTER -->
 <div align="center">
   <p style="color: #00FF87; font-size: 13px;"><i>"Arquitectura robusta, código limpio y sistemas escalables."</i></p>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:60A5FA,100:091921&height=80&section=footer" width="100%" />
