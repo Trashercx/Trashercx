@@ -1,4 +1,6 @@
+<!-- HEADER: DOBLE COLUMNA CON BANNER Y TU GIF LOCAL -->
 <div align="center">
+  <!-- Banner superior ejecutivo -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:002D62,100:A970FF&height=160&section=header&text=Oscar%20Ivan&fontSize=45&fontColor=ffffff&animation=fadeIn" width="100%" />
 </div>
 
@@ -12,15 +14,17 @@
         Especializado en el diseño de infraestructura cloud escalable, lógica de negocio robusta con PHP/Laravel y automatización mediante dispositivos IoT. Enfoque riguroso en seguridad, mitigación de riesgos y metodologías ágiles.
       </p>
       <p style="margin-bottom: 0;">
-        <a href="https://linkedin.com/in/tu-perfil" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00B4DB&borderColor=002D62"/>
+        <a href="https://www.linkedin.com/in/oscarburga/" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
         </a>
-        <a href="mailto:tu-correo@email.com">
-          <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A970FF&borderColor=A970FF"/>
+        <a href="https://oscarburga.me" target="_blank">
+          <img src="https://img.shields.io/badge/Portafolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=00B4DB&borderColor=00B4DB"/>
         </a>
+        <img src="https://img.shields.io/badge/Status-Available_for_Hire-0D1117?style=for-the-badge&logo=rocket&logoColor=A970FF&borderColor=A970FF"/>
       </p>
     </td>
     <td width="40%" align="center" valign="middle">
+      <!-- TU GIF LOCAL -->
       <img src="https://raw.githubusercontent.com/Trashercx/Trashercx/main/gif1.gif" width="100%" style="border-radius: 10px; border: 1px solid #30363D; box-shadow: 0 4px 16px rgba(0,0,0,0.5);" alt="Tech Animation" />
     </td>
   </tr>
@@ -28,6 +32,7 @@
 
 <br>
 
+<!-- SEPARADOR ANIMADO ULTRA DELGADO 1 -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:002D62,100:A970FF&height=8&section=header" width="100%" />
 </div>
@@ -44,6 +49,7 @@
 
 <br>
 
+<!-- SEPARADOR ANIMADO ULTRA DELGADO 2 -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A970FF,100:002D62&height=8&section=header" width="100%" />
 </div>
@@ -73,6 +79,7 @@
 
 <br>
 
+<!-- SEPARADOR ANIMADO ULTRA DELGADO 3 -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:002D62,100:A970FF&height=8&section=header" width="100%" />
 </div>
@@ -114,6 +121,7 @@
 
 <br>
 
+<!-- SEPARADOR ANIMADO ULTRA DELGADO 4 -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A970FF,100:002D62&height=8&section=header" width="100%" />
 </div>
@@ -141,6 +149,7 @@
 
 <br>
 
+<!-- FOOTER -->
 <div align="center">
   <p style="color: #00B4DB; font-size: 13px;"><i>"La infraestructura invisible es la que sostiene la innovación visible."</i></p>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A970FF,100:002D62&height=90&section=footer" width="100%" />
