@@ -1,73 +1,66 @@
-<div align="center">
-  <!-- BANNER SUPERIOR -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:002D62,100:A970FF&text=CLOUD%20PLATFORM&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%" />
+<!-- HEADER: ESTRUCTURA A DOS COLUMNAS CON TU GIF -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="60%" valign="middle" align="left">
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A970FF&vCenter=true&width=600&lines=Ingeniero+de+Sistemas+%7C+Backend;Arquitecto+Cloud+(AWS+%7C+Azure+%7C+GCP);Auditor%C3%ADa+IT+y+Seguridad+(ISO+27001);IoT+&+Automatización+de+Sistemas" alt="Roles" />
+      </a>
+      <br>
+      <p style="font-size: 16px;">
+        Diseñando infraestructura en la nube escalable, desarrollando lógica de negocio robusta y conectando el mundo físico mediante IoT.
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/tu-perfil">
+          <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00B4DB"/>
+        </a>
+        <a href="mailto:tu-correo@email.com">
+          <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A970FF"/>
+        </a>
+      </p>
+    </td>
+    <td width="40%" align="center" valign="middle">
+      <!-- AQUÍ ESTÁ INTEGRADO TU GIF LOCAL -->
+      <img src="gif1.gif" width="90%" style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);" alt="Animación Tech" />
+    </td>
+  </tr>
+</table>
 
-  <!-- SUBTÍTULO ANIMADO -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1500&color=00B4DB&center=true&vCenter=true&width=800&lines=Azure+Cloud+Architect;AWS+Solutions+Engineer;Terraform+Automation;Kubernetes+Platform;DevOps+%26+Platform+Engineering;Cloud+Native+Solutions" alt="Typing SVG" />
-  </a>
-
-  <br><br>
-
-  <!-- INSIGNIAS DE TECNOLOGÍA -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Azure-0D1117?style=for-the-badge&logo=microsoftazure&logoColor=00B4DB&borderColor=002D62" />
-    <img src="https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazonaws&logoColor=A970FF&borderColor=A970FF" />
-    <img src="https://img.shields.io/badge/GCP-0D1117?style=for-the-badge&logo=googlecloud&logoColor=00B4DB&borderColor=002D62" />
-    <img src="https://img.shields.io/badge/Terraform-0D1117?style=for-the-badge&logo=terraform&logoColor=A970FF&borderColor=A970FF" />
-    <img src="https://img.shields.io/badge/Kubernetes-0D1117?style=for-the-badge&logo=kubernetes&logoColor=00B4DB&borderColor=002D62" />
-  </p>
-</div>
-
----
-
-### <img src="https://api.iconify.design/lucide/info.svg?color=%23A970FF" width="26" style="vertical-align: text-bottom;"> About The Platform
-
-This repository contains an enterprise-grade cloud platform designed to deliver scalable, secure and automated cloud-native services.
-
-**Key Objectives:**
-*   ✅ Infrastructure as Code
-*   ✅ Platform Engineering
-*   ✅ Security by Design
-*   ✅ Cloud Governance
-*   ✅ High Availability & Observability
+<br>
 
 ---
 
-### <img src="https://api.iconify.design/lucide/layers.svg?color=%23A970FF" width="26" style="vertical-align: text-bottom;"> Technology Stack
+### <img src="https://api.iconify.design/lucide/layers.svg?color=%2300B4DB" width="24" style="vertical-align: middle;"> Ecosistema Tecnológico
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=azure,aws,gcp,terraform,kubernetes,docker,github,linux,prometheus,grafana,git&theme=dark" alt="Stack" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,linux,docker,php,laravel,mysql,raspberrypi,figma,postman,git&theme=dark&perline=12" alt="Tech Stack" />
 </div>
 
 <br>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=A970FF&center=true&width=800&lines=Building+Cloud+Native+Architectures;Automating+Infrastructure;Improving+Reliability;Enhancing+Cloud+Security;Optimizing+Operational+Processes" />
-</div>
-
 ---
 
-### <img src="https://api.iconify.design/lucide/network.svg?color=%23A970FF" width="26" style="vertical-align: text-bottom;"> Cloud Architecture
+### <img src="https://api.iconify.design/lucide/cpu.svg?color=%23A970FF" width="24" style="vertical-align: middle;"> Arquitectura: Sistema IoT de Asistencia
+
+<p>Modelo conceptual del ecosistema de automatización y gestión de personal (Hardware, Backend y Cloud):</p>
 
 ```mermaid
 graph TD
-    Client([Internet / Client]) --> AppGW[Azure App Gateway]
-    
-    subgraph AKS_Cluster [Azure Kubernetes Service]
-        AppGW --> Pods(Microservices / Pods)
+    subgraph EdgeLayer [Capa Física & IoT]
+        Scanner[Lector QR] --> Pi(Raspberry Pi Zero 2 W)
     end
     
-    subgraph Security_Layer [Security & Identity]
-        Pods --> MI{Managed Identity}
-        MI --> KV[Azure Key Vault]
+    subgraph BackendLayer [Capa de Lógica - Laravel]
+        Pi -->|API REST / JSON| API[API Gateway]
+        API --> Auth{Validación / Auth}
+        Auth -->|Token Válido| Controller(Controlador de Asistencia)
+        Controller --> Eloquent[ORM]
     end
     
-    subgraph Observability [Monitoring & Logs]
-        Pods -.-> AM[Azure Monitor / Log Analytics]
-        AM -.-> Grafana[Grafana Dashboards]
+    subgraph DataLayer [Capa de Datos & Nube]
+        Eloquent --> DB[(MySQL Database)]
+        Controller -.->|Logs & Auditoría| CloudMon[Cloud Monitoring]
     end
-
-    style AKS_Cluster fill:#0D1117,stroke:#A970FF,stroke-width:2px,color:#fff
-    style Security_Layer fill:#0D1117,stroke:#00B4DB,stroke-width:2px,color:#fff
-    style Observability fill:#0D1117,stroke:#002D62,stroke-width:2px,color:#fff
+    
+    style EdgeLayer fill:#0D1117,stroke:#00B4DB,stroke-width:2px,color:#fff
+    style BackendLayer fill:#0D1117,stroke:#A970FF,stroke-width:2px,color:#fff
+    style DataLayer fill:#0D1117,stroke:#002D62,stroke-width:2px,color:#fff
