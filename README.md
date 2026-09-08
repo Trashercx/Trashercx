@@ -35,15 +35,28 @@
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00FF87,100:60A5FA&height=6&section=header" width="100%" />
 </div>
 
-<div align="center" style="margin: 18px 0 12px 0;">
+<div align="center" style="margin: 18px 0 14px 0;">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=2000&color=60A5FA&center=true&vCenter=true&width=420&lines=CORE+TECHNOLOGIES" alt="Stack" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,php,laravel,mysql,postgresql,postman,git,github,githubactions&theme=dark&perline=18" alt="Tech Stack" />
-  <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/claude.png" height="48" alt="Claude" style="vertical-align: middle; margin-left: 6px;" />
+  <img src="https://skillicons.dev/icons?i=aws&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="AWS" />
+  <img src="https://skillicons.dev/icons?i=azure&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="Azure" />
+  <img src="https://skillicons.dev/icons?i=docker&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="Docker" />
+  <img src="https://skillicons.dev/icons?i=kubernetes&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="Kubernetes" />
+  <img src="https://skillicons.dev/icons?i=php&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="PHP" />
+  <img src="https://skillicons.dev/icons?i=laravel&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="Laravel" />
+  <img src="https://skillicons.dev/icons?i=java&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="Java" />
+  <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="Node.js" />
+  <img src="https://skillicons.dev/icons?i=mysql&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="MySQL" />
+  <img src="https://skillicons.dev/icons?i=postgresql&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="PostgreSQL" />
+  <img src="https://skillicons.dev/icons?i=postman&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="Postman" />
+  <img src="https://skillicons.dev/icons?i=git&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="Git" />
+  <img src="https://skillicons.dev/icons?i=github&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="GitHub" />
+  <img src="https://skillicons.dev/icons?i=githubactions&theme=dark" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px;" alt="GitHub Actions" />
+  <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/claude.png" height="48" style="background:#0A1921; padding:10px; border-radius:10px; border:1px solid #1A2F3D; margin:5px; vertical-align:middle;" alt="Claude" />
 </div>
 
 <br>
@@ -69,7 +82,7 @@
     <td width="33%" valign="top" style="padding: 18px; border-left: 3px solid #60A5FA; background: rgba(9, 25, 33, 0.5); border-radius: 4px;">
       <h4 style="color: #60A5FA; margin: 0 0 10px 0; font-size: 14px; letter-spacing: 0.3px;">Backend Engineering</h4>
       <p style="font-size: 13px; line-height: 1.6; color: #8FA3B8; margin: 0;">
-        Microservicios y APIs REST escalables con PHP/Laravel. Diseño de bases de datos relacionales y capas de caché.
+        Microservicios y APIs REST escalables con PHP/Laravel, Java y Node.js. Diseño de bases de datos relacionales y capas de caché.
       </p>
     </td>
     <td width="33%" valign="top" style="padding: 18px; border-left: 3px solid #34D399; background: rgba(9, 25, 33, 0.5); border-radius: 4px;">
