@@ -24,7 +24,7 @@
       </p>
     </td>
     <td width="40%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/Trashercx/Trashercx/main/gif1" width="100%" style="border-radius: 10px; border: 1px solid #172F3D; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" alt="Tech Animation" />
+      <img src="https://raw.githubusercontent.com/Trashercx/Trashercx/main/gif1.gif" width="100%" style="border-radius: 10px; border: 1px solid #172F3D; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" alt="Tech Animation" />
     </td>
   </tr>
 </table>
