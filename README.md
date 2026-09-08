@@ -40,22 +40,22 @@ Como muestra de mi enfoque integral (Hardware -> Backend -> Cloud), presento la 
 
 ```mermaid
 graph TD
-    subgraph Edge / IoT Layer [Capa Física & IoT]
+    subgraph EdgeLayer [Capa Física & IoT]
         Scanner[Lector QR] --> Pi(Raspberry Pi Zero 2 W)
     end
     
-    subgraph Backend / Logic Layer [Capa de Lógica - Laravel]
+    subgraph BackendLayer [Capa de Lógica - Laravel]
         Pi -->|API REST / JSON| API[API Gateway]
         API --> Auth{Validación / Auth}
         Auth -->|Token Válido| Controller(Controlador de Asistencia)
         Controller --> Eloquent[ORM]
     end
     
-    subgraph Data & Cloud Layer [Capa de Datos & Nube]
+    subgraph DataLayer [Capa de Datos & Nube]
         Eloquent --> DB[(MySQL Database)]
         Controller -.->|Logs & Auditoría| CloudMon[Cloud Monitoring]
     end
     
-    style Edge / IoT Layer fill:#0D1117,stroke:#00B4DB,stroke-width:2px,color:#fff
-    style Backend / Logic Layer fill:#0D1117,stroke:#A970FF,stroke-width:2px,color:#fff
-    style Data & Cloud Layer fill:#0D1117,stroke:#002D62,stroke-width:2px,color:#fff
+    style EdgeLayer fill:#0D1117,stroke:#00B4DB,stroke-width:2px,color:#fff
+    style BackendLayer fill:#0D1117,stroke:#A970FF,stroke-width:2px,color:#fff
+    style DataLayer fill:#0D1117,stroke:#002D62,stroke-width:2px,color:#fff
