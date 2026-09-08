@@ -8,12 +8,13 @@
         Especializado en el diseño e implementación de arquitecturas cloud escalables, desarrollo de sistemas backend robustos y automatización de procesos mediante IoT. Enfoque riguroso en la seguridad de la información, mitigación de riesgos tecnológicos y metodologías ágiles.
       </p>
       <p>
-        <a href="https://linkedin.com/in/tu-perfil">
+        <a href="https://linkedin.com/in/tu-perfil" target="_blank">
           <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00B4DB&borderColor=002D62"/>
         </a>
         <a href="mailto:tu-correo@email.com">
           <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A970FF&borderColor=A970FF"/>
         </a>
+        <img src="https://img.shields.io/badge/Status-Available_for_Hire-0D1117?style=for-the-badge&logo=rocket&logoColor=00B4DB&borderColor=00B4DB"/>
       </p>
     </td>
     <td width="35%" align="center" valign="middle">
@@ -25,12 +26,16 @@
 
 <br>
 
-<!-- SEPARADOR ANIMADO 1 -->
+<!-- SEPARADOR ANIMADO DELGADO 1 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:002D62,100:A970FF&height=35&section=header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:002D62,100:A970FF&height=15&section=header" width="100%" />
 </div>
 
-### <img src="https://api.iconify.design/lucide/layers.svg?color=%2300B4DB" width="22" style="vertical-align: middle;"> Stack Tecnológico & Ecosistema
+<div align="center">
+  <img src="https://img.shields.io/badge/Core_Technologies_&_Infrastructure-0D1117?style=flat-square&logo=stackblitz&logoColor=00B4DB&borderColor=002D62" alt="Tech Stack Badge" />
+</div>
+
+<br>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=aws,azure,gcp,linux,docker,php,laravel,mysql,raspberrypi,figma,postman,git&theme=dark&perline=12" alt="Tech Stack" />
@@ -38,41 +43,51 @@
 
 <br>
 
-<!-- SEPARADOR ANIMADO 2 -->
+<!-- SEPARADOR ANIMADO DELGADO 2 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A970FF,100:002D62&height=35&section=header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A970FF,100:002D62&height=15&section=header" width="100%" />
 </div>
 
-### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%23A970FF" width="22" style="vertical-align: middle;"> Dominios de Competencia
+<div align="center">
+  <img src="https://img.shields.io/badge/Engineering_Domains-0D1117?style=flat-square&logo=cisco&logoColor=A970FF&borderColor=A970FF" alt="Domains Badge" />
+</div>
+
+<br>
 
 <table width="100%" border="0">
   <tr>
-    <td width="33%" valign="top" style="padding: 10px;">
-      <h4 style="color: #00B4DB; margin-bottom: 5px;">☁️ Cloud & DevOps</h4>
-      <p style="font-size: 13px; color: #9CB6D9;">Despliegue, gestión y optimización de infraestructura multi-cloud (AWS, Azure, GCP) asegurando alta disponibilidad.</p>
+    <td width="33%" valign="top" style="padding: 15px; border-left: 2px solid #002D62; background: rgba(13, 17, 23, 0.3);">
+      <h4 style="color: #00B4DB; margin-top: 0; margin-bottom: 5px;">☁️ Cloud & DevOps</h4>
+      <p style="font-size: 13px; color: #9CB6D9; margin-bottom: 0;">Despliegue, gestión y optimización de infraestructura multi-cloud (AWS, Azure, GCP) asegurando alta disponibilidad.</p>
     </td>
-    <td width="33%" valign="top" style="padding: 10px;">
-      <h4 style="color: #A970FF; margin-bottom: 5px;">⚙️ Backend & Sistemas</h4>
-      <p style="font-size: 13px; color: #9CB6D9;">Arquitectura de APIs REST, lógica de negocio avanzada con PHP/Laravel y persistencia de datos optimizada.</p>
+    <td width="33%" valign="top" style="padding: 15px; border-left: 2px solid #8A2BE2; background: rgba(13, 17, 23, 0.3);">
+      <h4 style="color: #A970FF; margin-top: 0; margin-bottom: 5px;">⚙️ Backend & Sistemas</h4>
+      <p style="font-size: 13px; color: #9CB6D9; margin-bottom: 0;">Arquitectura de APIs REST, lógica de negocio avanzada con PHP/Laravel y persistencia de datos optimizada.</p>
     </td>
-    <td width="33%" valign="top" style="padding: 10px;">
-      <h4 style="color: #00B4DB; margin-bottom: 5px;">🔒 Seguridad & IoT</h4>
-      <p style="font-size: 13px; color: #9CB6D9;">Evaluación de riesgos tecnológicos (ISO 27001) e integración de hardware de borde (Raspberry Pi).</p>
+    <td width="33%" valign="top" style="padding: 15px; border-left: 2px solid #00B4DB; background: rgba(13, 17, 23, 0.3);">
+      <h4 style="color: #00B4DB; margin-top: 0; margin-bottom: 5px;">🔒 Seguridad & IoT</h4>
+      <p style="font-size: 13px; color: #9CB6D9; margin-bottom: 0;">Evaluación de riesgos tecnológicos (ISO 27001) e integración de hardware de borde (Raspberry Pi).</p>
     </td>
   </tr>
 </table>
 
-<!-- SEPARADOR ANIMADO 3 -->
+<br>
+
+<!-- SEPARADOR ANIMADO DELGADO 3 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:002D62,100:A970FF&height=35&section=header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:002D62,100:A970FF&height=15&section=header" width="100%" />
 </div>
 
-### <img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%23A970FF" width="22" style="vertical-align: middle;"> Proyectos Destacados
+<div align="center">
+  <img src="https://img.shields.io/badge/Featured_Projects-0D1117?style=flat-square&logo=git&logoColor=00B4DB&borderColor=002D62" alt="Projects Badge" />
+</div>
+
+<br>
 
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
-    <td align="left" width="50%" style="padding: 20px; border: 1px solid #1E293B; background: rgba(13, 17, 23, 0.5);">
-      <h3 style="color: #00B4DB; margin-top: 0; margin-bottom: 8px;">TENDALY</h3>
+    <td align="left" width="50%" style="padding: 20px; border: 1px solid #1E293B; background: rgba(13, 17, 23, 0.6); border-radius: 8px;">
+      <h3 style="color: #00B4DB; margin-top: 0; margin-bottom: 8px;">🚀 TENDALY</h3>
       <p style="font-size: 14px; min-height: 55px; color: #9CB6D9;">Desarrollo integral de lógica backend y prototipado UI. Gestión completa del ciclo de vida del producto bajo metodologías ágiles (Scrum).</p>
       <p style="margin-bottom: 15px;">
         <img src="https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=00B4DB" alt="PHP"/>
@@ -83,8 +98,8 @@
         <img src="https://img.shields.io/badge/Ver_Repositorio-→-00B4DB?style=for-the-badge&logoColor=white" alt="View Project"/>
       </a>
     </td>
-    <td align="left" width="50%" style="padding: 20px; border: 1px solid #1E293B; background: rgba(13, 17, 23, 0.5);">
-      <h3 style="color: #A970FF; margin-top: 0; margin-bottom: 8px;">Data Center Tier III</h3>
+    <td align="left" width="50%" style="padding: 20px; border: 1px solid #1E293B; background: rgba(13, 17, 23, 0.6); border-radius: 8px;">
+      <h3 style="color: #A970FF; margin-top: 0; margin-bottom: 8px;">☁️ Data Center Tier III</h3>
       <p style="font-size: 14px; min-height: 55px; color: #9CB6D9;">Elaboración de diseño conceptual y arquitectura, incluyendo cálculos precisos de almacenamiento y documentación técnica para consultoría.</p>
       <p style="margin-bottom: 15px;">
         <img src="https://img.shields.io/badge/AWS-0D1117?style=flat-square&logo=amazonaws&logoColor=A970FF" alt="AWS"/>
@@ -100,12 +115,16 @@
 
 <br>
 
-<!-- SEPARADOR ANIMADO 4 -->
+<!-- SEPARADOR ANIMADO DELGADO 4 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A970FF,100:002D62&height=35&section=header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A970FF,100:002D62&height=15&section=header" width="100%" />
 </div>
 
-### <img src="https://api.iconify.design/lucide/bar-chart-2.svg?color=%23A970FF" width="22" style="vertical-align: middle;"> Métricas y Telemetría
+<div align="center">
+  <img src="https://img.shields.io/badge/Telemetry_&_Activity-0D1117?style=flat-square&logo=activitypub&logoColor=00B4DB&borderColor=002D62" alt="Telemetry Badge" />
+</div>
+
+<br>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Trashercx&show_icons=true&theme=radical&bg_color=0D1117&title_color=A970FF&text_color=9CB6D9&icon_color=00B4DB&hide_border=true" width="48%" />
