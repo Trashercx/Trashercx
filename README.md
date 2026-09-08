@@ -1,140 +1,107 @@
-<!-- HEADER: DOBLE COLUMNA CON BANNER Y TU GIF LOCAL -->
+<!-- HEADER: BANNER Y PRESENTACIÓN CON TEMA CYBERPUNK / ESMERALDA-ZAFIRO -->
 <div align="center">
-  <!-- Banner superior ejecutivo -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:002D62,100:A970FF&height=160&section=header&text=Oscar%20Ivan&fontSize=45&fontColor=ffffff&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:091921,100:00FF87&height=180&section=header&text=Oscar%20Ivan&fontSize=48&fontColor=ffffff&animation=fadeIn" width="100%" />
 </div>
 
 <br>
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0" style="background: rgba(13, 17, 23, 0.4); border: 1px solid #1E293B; border-radius: 12px; padding: 15px;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="background: rgba(9, 25, 33, 0.5); border: 1px solid #172F3D; border-radius: 12px; padding: 20px;">
   <tr>
     <td width="60%" valign="middle" align="left" style="padding-right: 15px;">
-      <h3 style="color: #A970FF; margin-top: 0; margin-bottom: 5px; font-size: 22px;">Backend Developer & Cloud Architect</h3>
-      <p style="font-size: 14px; line-height: 1.6; color: #9CB6D9;">
-        Especializado en el diseño de infraestructura cloud escalable, lógica de negocio robusta con PHP/Laravel y automatización mediante dispositivos IoT. Enfoque riguroso en seguridad, mitigación de riesgos y metodologías ágiles.
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1500&color=00FF87&vCenter=true&width=550&lines=Cloud+Infrastructure+Architect;Backend+Engineer+%7C+Laravel;Systems+Engineer;Security+%26+ISO+27001" alt="Typing Roles" />
+      </a>
+      <p style="font-size: 14px; line-height: 1.6; color: #8FA3B8; margin-top: 12px;">
+        Diseño de arquitecturas cloud altamente disponibles, desarrollo de sistemas backend eficientes y automatización de procesos mediante IoT. Enfoque estratégico en la seguridad de la información y normativas de riesgo tecnológico.
       </p>
-      <p style="margin-bottom: 0;">
+      <p style="margin-bottom: 0; margin-top: 15px;">
         <a href="https://www.linkedin.com/in/oscarburga/" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+          <img src="https://img.shields.io/badge/LinkedIn-091921?style=for-the-badge&logo=linkedin&logoColor=00FF87&borderColor=00FF87"/>
         </a>
         <a href="https://oscarburga.me" target="_blank">
-          <img src="https://img.shields.io/badge/Portafolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=00B4DB&borderColor=00B4DB"/>
+          <img src="https://img.shields.io/badge/Portafolio-091921?style=for-the-badge&logo=google-chrome&logoColor=60A5FA&borderColor=60A5FA"/>
         </a>
-        <img src="https://img.shields.io/badge/Status-Available_for_Hire-0D1117?style=for-the-badge&logo=rocket&logoColor=A970FF&borderColor=A970FF"/>
+        <img src="https://img.shields.io/badge/Status-Available-091921?style=for-the-badge&logo=probot&logoColor=34D399&borderColor=34D399"/>
       </p>
     </td>
     <td width="40%" align="center" valign="middle">
-      <!-- TU GIF LOCAL -->
-      <img src="https://raw.githubusercontent.com/Trashercx/Trashercx/main/gif1.gif" width="100%" style="border-radius: 10px; border: 1px solid #30363D; box-shadow: 0 4px 16px rgba(0,0,0,0.5);" alt="Tech Animation" />
+      <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop" width="100%" style="border-radius: 10px; border: 1px solid #172F3D; box-shadow: 0 8px 24px rgba(0,0,0,0.7); opacity: 0.9;" alt="Visual Abstract" />
     </td>
   </tr>
 </table>
 
 <br>
 
-<!-- SEPARADOR ANIMADO ULTRA DELGADO 1 -->
+<!-- SEPARADOR ANIMADO 1 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:002D62,100:A970FF&height=8&section=header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00FF87,100:60A5FA&height=10&section=header" width="100%" />
 </div>
 
+<!-- HEADER ANIMADO PRINCIPAL 1 -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Core_Technologies_&_Infrastructure-0D1117?style=flat-square&logo=stackblitz&logoColor=00B4DB&borderColor=002D62" alt="Tech Stack" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,linux,docker,php,laravel,mysql,raspberrypi,figma,postman,git&theme=dark&perline=12" alt="Skills" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=2000&color=60A5FA&center=true&vCenter=true&width=500&lines=CORE+TECHNOLOGIES;INFRASTRUCTURE+%26+STACK" alt="Header Stack" />
+  </a>
 </div>
 
 <br>
 
-<!-- SEPARADOR ANIMADO ULTRA DELGADO 2 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A970FF,100:002D62&height=8&section=header" width="100%" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,linux,docker,kubernetes,terraform,php,laravel,mysql,postgresql,redis,raspberrypi,figma,postman,git,github,githubactions&theme=dark&perline=18" alt="Full Tech Stack" />
 </div>
 
+<br>
+
+<!-- SEPARADOR ANIMADO 2 -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Engineering_Domains-0D1117?style=flat-square&logo=cisco&logoColor=A970FF&borderColor=A970FF" alt="Domains" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:60A5FA,100:00FF87&height=10&section=header" width="100%" />
+</div>
+
+<!-- HEADER ANIMADO PRINCIPAL 2 -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=2000&color=00FF87&center=true&vCenter=true&width=500&lines=ENGINEERING+DOMAINS;TECHNICAL+SPECIALIZATION" alt="Header Domains" />
+  </a>
 </div>
 
 <br>
 
 <table width="100%" border="0">
   <tr>
-    <td width="33%" valign="top" style="padding: 12px; border-left: 2px solid #002D62; background: rgba(13, 17, 23, 0.3); border-radius: 4px;">
-      <h4 style="color: #00B4DB; margin-top: 0; margin-bottom: 5px;">☁️ Cloud & DevOps</h4>
-      <p style="font-size: 12px; color: #9CB6D9; margin-bottom: 0;">Infraestructura multi-cloud (AWS, Azure, GCP) y alta disponibilidad.</p>
+    <td width="33%" valign="top" style="padding: 15px; border-left: 2px solid #00FF87; background: rgba(9, 25, 33, 0.4); border-radius: 4px;">
+      <h4 style="color: #00FF87; margin-top: 0; margin-bottom: 8px;">Cloud & Platform</h4>
+      <p style="font-size: 13px; color: #8FA3B8; margin-bottom: 0;">Diseño, despliegue y optimización de infraestructura multi-cloud (AWS, Azure, GCP) bajo principios de alta disponibilidad y automatización con Terraform.</p>
     </td>
-    <td width="33%" valign="top" style="padding: 12px; border-left: 2px solid #8A2BE2; background: rgba(13, 17, 23, 0.3); border-radius: 4px;">
-      <h4 style="color: #A970FF; margin-top: 0; margin-bottom: 5px;">⚙️ Backend Systems</h4>
-      <p style="font-size: 12px; color: #9CB6D9; margin-bottom: 0;">APIs REST, lógica avanzada en PHP/Laravel y bases de datos.</p>
+    <td width="33%" valign="top" style="padding: 15px; border-left: 2px solid #60A5FA; background: rgba(9, 25, 33, 0.4); border-radius: 4px;">
+      <h4 style="color: #60A5FA; margin-top: 0; margin-bottom: 8px;">Backend Engineering</h4>
+      <p style="font-size: 13px; color: #8FA3B8; margin-bottom: 0;">Arquitectura de microservicios y APIs REST escalables utilizando PHP/Laravel, gestión avanzada de bases de datos relacionales y cachés.</p>
     </td>
-    <td width="33%" valign="top" style="padding: 12px; border-left: 2px solid #00B4DB; background: rgba(13, 17, 23, 0.3); border-radius: 4px;">
-      <h4 style="color: #00B4DB; margin-top: 0; margin-bottom: 5px;">🔒 Security & IoT</h4>
-      <p style="font-size: 12px; color: #9CB6D9; margin-bottom: 0;">Evaluación de riesgos (ISO 27001) e integración con Raspberry Pi.</p>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- SEPARADOR ANIMADO ULTRA DELGADO 3 -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:002D62,100:A970FF&height=8&section=header" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Featured_Projects-0D1117?style=flat-square&logo=git&logoColor=00B4DB&borderColor=002D62" alt="Projects" />
-</div>
-
-<br>
-
-<table width="100%" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td align="left" width="50%" style="padding: 15px; border: 1px solid #1E293B; background: rgba(13, 17, 23, 0.6); border-radius: 8px;">
-      <h3 style="color: #00B4DB; margin-top: 0; margin-bottom: 6px;">🚀 TENDALY</h3>
-      <p style="font-size: 13px; min-height: 45px; color: #9CB6D9; margin-bottom: 10px;">Desarrollo integral de backend y UI (Figma). Gestión completa del ciclo de vida bajo Scrum.</p>
-      <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=00B4DB" alt="PHP"/>
-        <img src="https://img.shields.io/badge/Laravel-0D1117?style=flat-square&logo=laravel&logoColor=A970FF" alt="Laravel"/>
-        <img src="https://img.shields.io/badge/Figma-0D1117?style=flat-square&logo=figma&logoColor=00B4DB" alt="Figma"/>
-      </p>
-      <a href="https://github.com/Trashercx" target="_blank">
-        <img src="https://img.shields.io/badge/Ver_Repositorio-→-00B4DB?style=for-the-badge&logoColor=white" alt="Repo"/>
-      </a>
-    </td>
-    <td align="left" width="50%" style="padding: 15px; border: 1px solid #1E293B; background: rgba(13, 17, 23, 0.6); border-radius: 8px;">
-      <h3 style="color: #A970FF; margin-top: 0; margin-bottom: 6px;">☁️ Data Center Tier III</h3>
-      <p style="font-size: 13px; min-height: 45px; color: #9CB6D9; margin-bottom: 10px;">Diseño conceptual, cálculos de almacenamiento y documentación técnica para consultoría.</p>
-      <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/AWS-0D1117?style=flat-square&logo=amazonaws&logoColor=A970FF" alt="AWS"/>
-        <img src="https://img.shields.io/badge/GCP-0D1117?style=flat-square&logo=googlecloud&logoColor=00B4DB" alt="GCP"/>
-        <img src="https://img.shields.io/badge/Azure-0D1117?style=flat-square&logo=microsoftazure&logoColor=A970FF" alt="Azure"/>
-      </p>
-      <a href="https://github.com/Trashercx" target="_blank">
-        <img src="https://img.shields.io/badge/Ver_Documentación-→-A970FF?style=for-the-badge&logoColor=white" alt="Docs"/>
-      </a>
+    <td width="33%" valign="top" style="padding: 15px; border-left: 2px solid #34D399; background: rgba(9, 25, 33, 0.4); border-radius: 4px;">
+      <h4 style="color: #34D399; margin-top: 0; margin-bottom: 8px;">Security & Hardware</h4>
+      <p style="font-size: 13px; color: #8FA3B8; margin-bottom: 0;">Auditorías de sistemas e implementación de controles bajo estándares ISO 27001, integrados con plataformas IoT embebidas (Raspberry Pi).</p>
     </td>
   </tr>
 </table>
 
 <br>
 
-<!-- SEPARADOR ANIMADO ULTRA DELGADO 4 -->
+<!-- SEPARADOR ANIMADO 3 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A970FF,100:002D62&height=8&section=header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00FF87,100:60A5FA&height=10&section=header" width="100%" />
 </div>
 
+<!-- HEADER ANIMADO PRINCIPAL 3 -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Telemetry_&_Activity-0D1117?style=flat-square&logo=activitypub&logoColor=00B4DB&borderColor=002D62" alt="Telemetry" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=2000&color=60A5FA&center=true&vCenter=true&width=500&lines=TELEMETRY+%26+ANALYTICS;GITHUB+PERFORMANCE" alt="Header Telemetry" />
+  </a>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Trashercx&show_icons=true&theme=radical&bg_color=0D1117&title_color=A970FF&text_color=9CB6D9&icon_color=00B4DB&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Trashercx&theme=radical&background=0D1117&ring=A970FF&fire=00B4DB&currStreakLabel=9CB6D9&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Trashercx&show_icons=true&theme=tokyonight&bg_color=091921&title_color=00FF87&text_color=8FA3B8&icon_color=60A5FA&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Trashercx&theme=tokyonight&background=091921&ring=00FF87&fire=60A5FA&currStreakLabel=8FA3B8&hide_border=true" width="48%" />
 </div>
 
 <br>
@@ -151,6 +118,6 @@
 
 <!-- FOOTER -->
 <div align="center">
-  <p style="color: #00B4DB; font-size: 13px;"><i>"La infraestructura invisible es la que sostiene la innovación visible."</i></p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A970FF,100:002D62&height=90&section=footer" width="100%" />
+  <p style="color: #00FF87; font-size: 13px;"><i>"Arquitectura robusta, código limpio y sistemas escalables."</i></p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:60A5FA,100:091921&height=80&section=footer" width="100%" />
 </div>
