@@ -42,7 +42,8 @@
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,linux,docker,kubernetes,terraform,php,laravel,mysql,postgresql,redis,raspberrypi,figma,postman,git,github,githubactions&theme=dark&perline=18" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,php,laravel,mysql,postgresql,postman,git,github,githubactions&theme=dark&perline=18" alt="Tech Stack" />
+  <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/claude.png" height="48" alt="Claude" style="vertical-align: middle; margin-left: 6px;" />
 </div>
 
 <br>
@@ -62,7 +63,7 @@
     <td width="33%" valign="top" style="padding: 18px; border-left: 3px solid #00FF87; background: rgba(9, 25, 33, 0.5); border-radius: 4px;">
       <h4 style="color: #00FF87; margin: 0 0 10px 0; font-size: 14px; letter-spacing: 0.3px;">Cloud & Platform</h4>
       <p style="font-size: 13px; line-height: 1.6; color: #8FA3B8; margin: 0;">
-        Infraestructura multi-cloud (AWS, Azure, GCP) orientada a alta disponibilidad. Automatización y provisioning con Terraform.
+        Infraestructura multi-cloud (AWS, Azure) orientada a alta disponibilidad. Automatización y provisioning con Terraform.
       </p>
     </td>
     <td width="33%" valign="top" style="padding: 18px; border-left: 3px solid #60A5FA; background: rgba(9, 25, 33, 0.5); border-radius: 4px;">
@@ -74,7 +75,7 @@
     <td width="33%" valign="top" style="padding: 18px; border-left: 3px solid #34D399; background: rgba(9, 25, 33, 0.5); border-radius: 4px;">
       <h4 style="color: #34D399; margin: 0 0 10px 0; font-size: 14px; letter-spacing: 0.3px;">Security & Hardware</h4>
       <p style="font-size: 13px; line-height: 1.6; color: #8FA3B8; margin: 0;">
-        Controles e auditorías bajo ISO 27001. Integración de sistemas embebidos e IoT con Raspberry Pi.
+        Controles e auditorías bajo ISO 27001. Integración de sistemas embebidos e IoT.
       </p>
     </td>
   </tr>
