@@ -11,7 +11,7 @@
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1400&color=00FF87&vCenter=true&width=520&lines=Cloud+Infrastructure+Architect;Backend+Engineer+%7C+Laravel;Systems+Engineer;Security+%26+ISO+27001" alt="Roles" />
       </a>
       <p style="font-size: 14px; line-height: 1.7; color: #8FA3B8; margin: 16px 0 0 0;">
-        Arquitecturas cloud de alta disponibilidad, sistemas backend con PHP/Laravel y automatización IoT. Especialización en seguridad de la información y cumplimiento ISO 27001.
+        Arquitecturas cloud de alta disponibilidad, sistemas backend con PHP/Laravel y automatización. Especialización en seguridad de la información y cumplimiento ISO 27001.
       </p>
       <p style="margin: 20px 0 0 0;">
         <a href="https://www.linkedin.com/in/oscarburga/" target="_blank">
