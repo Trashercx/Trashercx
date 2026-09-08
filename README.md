@@ -1,90 +1,97 @@
-<!-- BANNER ANIMADO CON FONDO ESTILO NUBE/TECH -->
+<!-- BANNER DE ARQUITECTURA CLOUD (Asegúrate de subir la imagen generada a tu repositorio) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00B4DB,100:0083B0&height=250&section=header&text=Oscar%20Ivan&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" alt="Header" />
+  <img src="watermarked_img_12106140212573382828.jpg" alt="Cloud Architecture Banner" width="100%" style="border-radius: 15px;" />
 </div>
 
-<!-- EFECTO DE TEXTO ANIMADO -->
+<!-- EFECTO DE MÁQUINA DE ESCRIBIR (Adaptado a Morado y Azul) -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00B4DB&center=true&vCenter=true&width=600&lines=Ingeniero+de+Sistemas+%7C+Backend;Arquitecto+Cloud+(AWS,+Azure,+GCP);Entusiasta+de+IoT+y+Seguridad;Desarrollador+Laravel" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A970FF&center=true&vCenter=true&width=600&lines=Ingeniero+de+Sistemas+%7C+Backend;Arquitecto+Cloud+(AWS,+Azure,+GCP);Entusiasta+de+IoT+y+Seguridad;Transformando+código+en+infraestructura" alt="Typing SVG" />
   </a>
+</div>
+
+<div align="center">
+  <p><i>"Construyendo arquitecturas escalables, seguras y de alto rendimiento desde la primera línea de código."</i></p>
 </div>
 
 <br>
 
+<!-- INSIGNIAS SOCIALES CON LA PALETA DE COLORES -->
 <div align="center">
-  <p><b>Transformando ideas en arquitecturas escalables, seguras y de alto rendimiento.</b></p>
-</div>
-
----
-
-### ⚡ Tecnologías y Arquitectura
-
-<div align="center">
-  <p>Mi ecosistema de desarrollo, enfocado en backend y despliegue en la nube:</p>
-  <!-- ICONOS DE LIBRERÍAS Y TECNOLOGÍAS (SKILL ICONS) -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,aws,azure,gcp,mysql,docker,linux,raspberrypi,figma,postman,git&theme=dark&perline=6" alt="Mis Skills" />
-  </a>
-</div>
-
-<br>
-
----
-
-### 📂 Portafolio Interactivo (Haz clic para expandir)
-
-<!-- USO DE HTML PARA CREAR UN MENÚ ACORDEÓN -->
-<details>
-  <summary><b>☁️ Arquitectura Cloud & DevOps</b></summary>
-  <br>
-  <ul>
-    <li><b>Diseño de Data Center Tier III:</b> Elaboración de diseño conceptual, cálculos de almacenamiento y documentación técnica para consultoría tecnológica.</li>
-    <li><b>Certificaciones:</b> Conocimientos certificados y despliegues prácticos en <b>AWS, Microsoft Azure y Google Cloud Platform</b>.</li>
-  </ul>
-</details>
-
-<details>
-  <summary><b>⚙️ Desarrollo Backend & Sistemas Web</b></summary>
-  <br>
-  <ul>
-    <li><b>TENDALY:</b> Desarrollo integral del backend y lógica de negocio implementando metodologías ágiles (Scrum).</li>
-    <li><b>Sistema de Asistencia (Tesis):</b> Arquitectura web para optimizar y escalar la gestión de asistencia estudiantil.</li>
-  </ul>
-</details>
-
-<details>
-  <summary><b>🔌 Hardware & IoT (Internet de las Cosas)</b></summary>
-  <br>
-  <ul>
-    <li><b>Control de Asistencia Automatizado:</b> Integración de hardware y software utilizando <b>Raspberry Pi Zero 2 W</b> y lectores de códigos QR para entornos físicos.</li>
-  </ul>
-</details>
-
----
-
-### 📊 Estadísticas en Tiempo Real
-
-<div align="center">
-  <!-- TARJETAS DE GITHUB STATS (Actualiza "TU_USUARIO_GITHUB") -->
-  <img src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO_GITHUB&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00B4DB&text_color=ffffff&icon_color=00B4DB" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TU_USUARIO_GITHUB&theme=transparent&hide_border=true&background=0D1117&ring=00B4DB&fire=00B4DB&currStreakLabel=ffffff" width="48%" />
-</div>
-
----
-
-### 📫 Conectemos
-
-<div align="center">
-  <!-- ICONOS SOCIALES -->
-  <a href="mailto:tu-correo@email.com">
-    <img src="https://img.shields.io/badge/Email-00B4DB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
   <a href="https://linkedin.com/in/tu-perfil">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00B4DB&borderColor=8A2BE2" alt="LinkedIn" />
+  </a>
+  <a href="mailto:tu-correo@email.com">
+    <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A970FF&borderColor=00B4DB" alt="Email" />
+  </a>
+  <a href="Tu_Portfolio_Link">
+    <img src="https://img.shields.io/badge/Portafolio-0D1117?style=for-the-badge&logo=dev.to&logoColor=00B4DB&borderColor=8A2BE2" alt="Portfolio" />
   </a>
 </div>
-<br>
+
+---
+
+### 🌌 Ecosistema Tecnológico
+
 <div align="center">
-  <i>"El buen código es su propia mejor documentación."</i>
+  <!-- ICONOS ANIMADOS DE TUS SKILLS -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,linux,docker,php,laravel,mysql,raspberrypi,figma,postman,git&theme=dark&perline=6" alt="Mis Skills" />
+  </a>
+</div>
+
+<br>
+
+---
+
+### 📂 Hub de Proyectos (Interactivos)
+
+<details>
+  <summary><h3 style="display:inline-block; cursor:pointer;">☁️ Arquitectura Cloud & DevOps</h3></summary>
+  <blockquote>
+    <b>Diseño de Data Center Tier III:</b> Elaboración de diseño conceptual, cálculos de almacenamiento y documentación técnica para consultoría tecnológica.<br>
+    <i>Stack: AWS, GCP, Infraestructura Física</i>
+  </blockquote>
+</details>
+
+<details>
+  <summary><h3 style="display:inline-block; cursor:pointer;">⚙️ Desarrollo Backend & Sistemas</h3></summary>
+  <blockquote>
+    <b>TENDALY:</b> Desarrollo integral del backend y lógica de negocio implementando metodologías ágiles (Scrum).<br>
+    <b>Sistema de Asistencia (Tesis):</b> Arquitectura web para optimizar y escalar la gestión de asistencia estudiantil.<br>
+    <i>Stack: PHP, Laravel, MySQL</i>
+  </blockquote>
+</details>
+
+<details>
+  <summary><h3 style="display:inline-block; cursor:pointer;">🔌 Hardware & IoT (Internet de las Cosas)</h3></summary>
+  <blockquote>
+    <b>Control de Asistencia Automatizado:</b> Integración de hardware y software utilizando <b>Raspberry Pi Zero 2 W</b> y lectores de códigos QR para entornos físicos.
+  </blockquote>
+</details>
+
+---
+
+### 📊 Telemetría y Contribuciones
+
+<div align="center">
+  <!-- TARJETAS CON TEMÁTICA MORADO/AZUL OSCURO (Cambia TU_USUARIO_GITHUB) -->
+  <img src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO_GITHUB&show_icons=true&theme=radical&bg_color=0D1117&title_color=A970FF&text_color=9CB6D9&icon_color=00B4DB&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TU_USUARIO_GITHUB&theme=radical&background=0D1117&ring=A970FF&fire=00B4DB&currStreakLabel=9CB6D9&hide_border=true" width="48%" />
+</div>
+
+<br>
+
+### 🐍 GitHub Snake Animation
+
+<!-- 
+¡IMPORTANTE! Para que el Snake funcione, necesitas configurar un "GitHub Action".
+Si aún no lo tienes, mostrará una imagen rota. Te explico cómo activarlo más abajo. 
+-->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TU_USUARIO_GITHUB/TU_USUARIO_GITHUB/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TU_USUARIO_GITHUB/TU_USUARIO_GITHUB/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/TU_USUARIO_GITHUB/TU_USUARIO_GITHUB/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
