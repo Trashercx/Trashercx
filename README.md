@@ -24,7 +24,7 @@
       </p>
     </td>
     <td width="42%" align="center" valign="middle" style="padding: 20px;">
-      <img src="https://raw.githubusercontent.com/Trashercx/Trashercx/main/gif1.gif" width="100%" style="border-radius: 10px; border: 1px solid #1A2F3D; box-shadow: 0 6px 20px rgba(0,0,0,0.5);" alt="Animation" />
+      <img src="https://raw.githubusercontent.com/Trashercx/Trashercx/main/.gif" width="100%" style="border-radius: 10px; border: 1px solid #1A2F3D; box-shadow: 0 6px 20px rgba(0,0,0,0.5);" alt="Animation" />
     </td>
   </tr>
 </table>
