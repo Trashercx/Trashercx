@@ -13,16 +13,18 @@ from pathlib import Path
 OUT = Path(__file__).resolve().parent.parent / "assets"
 OUT.mkdir(exist_ok=True)
 
-# ---------- Paleta 8-bit ----------
-BG = "#0A0E27"      # fondo profundo
-PANEL = "#0F1733"   # paneles
-GREEN = "#00FF87"
-BLUE = "#60A5FA"
-YELLOW = "#FFD93D"
-PINK = "#FF5E8A"
-WHITE = "#F5F5F5"
-GREY = "#8FA3B8"
-SHADOW = "#05071A"
+# ---------- Paleta retrowave ----------
+BG = "#0B0221"      # morado-negro profundo
+PANEL = "#150A33"   # paneles
+GREEN = "#B14EFF"   # acento principal: morado neon
+BLUE = "#2DE2FF"    # cian electrico
+YELLOW = "#FF8C42"  # naranja atardecer
+PINK = "#FF3CAC"    # magenta neon
+WHITE = "#F5F0FF"
+GREY = "#9A8CC7"    # lavanda gris
+SHADOW = "#05010F"
+GRID = "#1B0A3D"    # piso
+GRIDLINE = "#5A2BB0"  # lineas del piso
 
 # ---------- Fuente bitmap 5x7 ----------
 FONT = {
@@ -148,12 +150,42 @@ def sprite(rows, cmap, x, y, u):
     return out
 
 
+def retro_ground(W, H, ground_y):
+    """Piso tipo rejilla retrowave: linea magenta en el horizonte + grid."""
+    out = rect(0, ground_y, W, 6, PINK)
+    out += rect(0, ground_y + 6, W, H - ground_y - 6, GRID)
+    for gy in range(ground_y + 18, H, 12):
+        out += rect(0, gy, W, 2, GRIDLINE)
+    for gx in range(0, W, 48):
+        out += rect(gx, ground_y + 6, 2, H - ground_y - 6, GRIDLINE)
+    return out
+
+
+def retro_sun(cx, bottom_y, r, u=6):
+    """Sol a rayas (solo mitad superior) con degradado naranja -> magenta."""
+    out = ""
+    cols = ["#FFD166", "#FFB347", "#FF8C42", "#FF5E78", "#FF3CAC", "#E0329C"]
+    rows = r // u
+    for i in range(rows):
+        y = bottom_y - (i + 1) * u
+        dy = (i + 0.5) * u
+        half = int((r * r - dy * dy) ** 0.5) // u * u
+        if half <= 0:
+            continue
+        # rayas: dejamos huecos crecientes hacia abajo
+        if i < rows // 2 and i % 2 == 1:
+            continue
+        col = cols[min(len(cols) - 1, int((rows - 1 - i) / rows * len(cols)))]
+        out += rect(cx - half, y, half * 2, u, col)
+    return out
+
+
 def heart(x, y, u, color=PINK):
     rows = [".##.##.", "#######", "#######", ".#####.", "..###..", "...#..."]
     return sprite(rows, {"#": color}, x, y, u)
 
 
-def cloud(x, y, u, color="#B9C8EA"):
+def cloud(x, y, u, color="#7A52C7"):
     rows = ["...###....", ".########.", "##########"]
     return sprite(rows, {"#": color}, x, y, u)
 
@@ -195,14 +227,14 @@ def header():
     ground_y = 252
     body = ""
     # cielo en bandas (degradado pixelado)
-    bands = ["#070A1F", "#0A0E27", "#0E1535", "#132047", "#1A2C5C", "#223A74"]
+    bands = ["#07021A", "#0B0221", "#140634", "#1F0B4A", "#2E1163", "#44187A"]
     bh = ground_y // len(bands) + 1
     for i, col in enumerate(bands):
         body += rect(0, i * bh, W, bh, col)
     # estrellas (algunas titilan)
     for _ in range(90):
         sx, sy = rnd.randrange(0, W, u), rnd.randrange(0, 200, u)
-        col = rnd.choice([WHITE, WHITE, "#C9D7F2", YELLOW])
+        col = rnd.choice([WHITE, WHITE, "#D8C8FF", BLUE])
         if rnd.random() < 0.35:
             d = rnd.uniform(1.2, 3.5)
             body += (
@@ -214,25 +246,27 @@ def header():
     # luna
     moon = ["..####..", ".######.", "########", "########", "########", "########", ".######.", "..####.."]
     mx, my, mu = 950, 48, 7
-    body += sprite(moon, {"#": "#FFF1B8"}, mx, my, mu)
-    body += rect(mx + 3 * mu, my + 2 * mu, mu, mu, "#E8D48A") + rect(mx + 5 * mu, my + 4 * mu, mu, mu, "#E8D48A")
+    body += sprite(moon, {"#": "#E8D9FF"}, mx, my, mu)
+    body += rect(mx + 3 * mu, my + 2 * mu, mu, mu, "#C9B3F2") + rect(mx + 5 * mu, my + 4 * mu, mu, mu, "#C9B3F2")
     # nubes flotando
     for (cx, cy, cu, dur) in [(80, 60, 7, 70), (520, 40, 5, 95), (860, 95, 6, 80)]:
         body += (
             f"<g>{cloud(cx, cy, cu)}"
             f'<animateTransform attributeName="transform" type="translate" from="-200 0" to="{W + 100} 0" dur="{dur}s" repeatCount="indefinite"/></g>'
         )
+    # sol retrowave en el horizonte
+    body += retro_sun(W // 2, ground_y, 96)
     # skyline con ventanas
     x = 0
     while x < W:
         bw = rnd.choice([24, 30, 36, 42, 48, 60])
         bh_ = rnd.choice([36, 48, 60, 72, 90, 108])
-        col = rnd.choice(["#0B1230", "#0D1538", "#101A42"])
+        col = rnd.choice(["#0E0428", "#140733", "#1A0A40"])
         body += rect(x, ground_y - bh_, bw, bh_, col)
         for wy in range(ground_y - bh_ + 6, ground_y - 6, 12):
             for wx in range(x + 6, x + bw - 6, 12):
                 if rnd.random() < 0.45:
-                    wc = rnd.choice([YELLOW, "#FFE98A", BLUE])
+                    wc = rnd.choice([BLUE, PINK, "#FFB347"])
                     if rnd.random() < 0.15:
                         body += (
                             f'<rect x="{wx}" y="{wy}" width="6" height="6" fill="{wc}">'
@@ -242,20 +276,13 @@ def header():
                         body += rect(wx, wy, 6, 6, wc)
         x += bw + rnd.choice([0, 6])
     # antena con luz roja
-    body += rect(600, ground_y - 140, 6, 40, "#1A2448")
+    body += rect(600, ground_y - 140, 6, 40, "#2A1156")
     body += (
         f'<rect x="600" y="{ground_y - 146}" width="6" height="6" fill="{PINK}">'
         f'<animate attributeName="opacity" values="1;0" dur="1.2s" calcMode="discrete" repeatCount="indefinite"/></rect>'
     )
     # suelo
-    body += rect(0, ground_y, W, 6, "#5BE36B")
-    body += rect(0, ground_y + 6, W, 8, "#2E9E4A")
-    body += rect(0, ground_y + 14, W, H - ground_y - 14, "#4B3426")
-    for _ in range(70):
-        body += rect(
-            rnd.randrange(0, W, 6), rnd.randrange(ground_y + 18, H - 6, 6), 6, 6,
-            rnd.choice(["#3A281D", "#5E4232"]),
-        )
+    body += retro_ground(W, H, ground_y)
     # HUD superior
     body += text_shadow("PLAYER 1", 28, 24, 3, YELLOW)
     hearts_w = 3 * 7 * 3 + 2 * 6
@@ -273,8 +300,8 @@ def header():
     sub = "CLOUD ARCHITECT // BACKEND ENGINEER"
     ss = 4
     body += rect(0, 168, W, 48, BG, 'opacity="0.78"')
-    body += rect(0, 168, W, 2, GREEN, 'opacity="0.5"') + rect(0, 214, W, 2, GREEN, 'opacity="0.5"')
-    body += text_shadow(sub, (W - text_width(sub, ss)) // 2, 178, ss, GREEN)
+    body += rect(0, 168, W, 2, BLUE, 'opacity="0.6"') + rect(0, 214, W, 2, BLUE, 'opacity="0.6"')
+    body += text_shadow(sub, (W - text_width(sub, ss)) // 2, 178, ss, BLUE)
     # cuy corriendo sobre el cesped
     cu = 4
     body += (
@@ -336,7 +363,7 @@ def character_sheet():
         body += text(v, 22 + 7 * 6 * 2, y, 2, col)
         y += 26
     for x in range(22, W - 22, 12):
-        body += rect(x, y + 2, 6, 3, "#223058")
+        body += rect(x, y + 2, 6, 3, "#33195E")
     y += 18
     body += text("SKILLS", 22, y, 2, GREY)
     y += 22
@@ -362,7 +389,7 @@ def character_sheet():
                     f'<animate attributeName="opacity" values="1;0.25;1" dur="{1.1 + 0.2 * i:.1f}s" repeatCount="indefinite"/></rect>'
                 )
             else:
-                body += rect(sx, y, sw, sh, "#1E2A4F")
+                body += rect(sx, y, sw, sh, "#241248")
         body += text(f"LV{lvl}", bar_x + segs * (sw + gap) + 8, y + 1, 2, GREY)
         y += 30
     (OUT / "character-sheet.svg").write_text(svg(W, H, body), encoding="utf-8")
@@ -389,14 +416,13 @@ def footer():
     for _ in range(40):
         body += rect(rnd.randrange(0, W, 6), rnd.randrange(0, 90, 6), 6, 6, WHITE, 'opacity="0.6"')
     ground_y = 112
-    body += rect(0, ground_y, W, 6, "#5BE36B")
-    body += rect(0, ground_y + 6, W, 8, "#2E9E4A")
-    body += rect(0, ground_y + 14, W, H - ground_y - 14, "#4B3426")
+    body += retro_sun(W // 2, ground_y, 60)
+    body += retro_ground(W, H, ground_y)
     q = "CONTINUE?"
     body += text_shadow(q, (W - text_width(q, 4)) // 2, 24, 4, WHITE)
     yx = W // 2 - 110
     body += f'<g>{text(">", yx - 26, 66, 3, YELLOW)}{blink("0.8s")}</g>'
-    body += text("YES", yx, 66, 3, GREEN)
+    body += text("YES", yx, 66, 3, BLUE)
     body += text("NO", W // 2 + 60, 66, 3, GREY)
     body += cuy(W - 140, ground_y - 9 * 4, 4, 0)
     body += text("THANKS FOR PLAYING", 28, 90, 2, GREY)

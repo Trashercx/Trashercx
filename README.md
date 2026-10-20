@@ -12,7 +12,7 @@
     <td width="58%" valign="top">
       <br>
       <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&pause=1500&color=00FF87&vCenter=true&width=520&height=40&lines=CLOUD+INFRASTRUCTURE+ARCHITECT;BACKEND+ENGINEER+%2F+LARAVEL;SYSTEMS+ENGINEER;SECURITY+%26+ISO+27001" alt="Roles" />
+        <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&pause=1500&color=B14EFF&vCenter=true&width=520&height=40&lines=CLOUD+INFRASTRUCTURE+ARCHITECT;BACKEND+ENGINEER+%2F+LARAVEL;SYSTEMS+ENGINEER;SECURITY+%26+ISO+27001" alt="Roles" />
       </a>
       <br><br>
       <p>
@@ -29,13 +29,13 @@
       </p>
       <p>
         <a href="https://www.linkedin.com/in/oscarburga/" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-CONNECT-00FF87?style=flat-square&logo=linkedin&logoColor=white&labelColor=0A0E27" alt="LinkedIn" />
+          <img src="https://img.shields.io/badge/LinkedIn-CONNECT-B14EFF?style=flat-square&logo=linkedin&logoColor=white&labelColor=0B0221" alt="LinkedIn" />
         </a>
         <a href="https://oscarburga.me" target="_blank">
-          <img src="https://img.shields.io/badge/Portafolio-VISIT-60A5FA?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0A0E27" alt="Portafolio" />
+          <img src="https://img.shields.io/badge/Portafolio-VISIT-2DE2FF?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0B0221" alt="Portafolio" />
         </a>
-        <img src="https://img.shields.io/badge/Status-OPEN%20TO%20WORK-FFD93D?style=flat-square&logo=probot&logoColor=white&labelColor=0A0E27" alt="Status" />
-        <img src="https://komarev.com/ghpvc/?username=Trashercx&style=flat-square&color=FF5E8A&label=VISITORS&labelColor=0A0E27" alt="Visitas al perfil" />
+        <img src="https://img.shields.io/badge/Status-OPEN%20TO%20WORK-FF8C42?style=flat-square&logo=probot&logoColor=white&labelColor=0B0221" alt="Status" />
+        <img src="https://komarev.com/ghpvc/?username=Trashercx&style=flat-square&color=FF3CAC&label=VISITORS&labelColor=0B0221" alt="Visitas al perfil" />
       </p>
     </td>
     <td width="42%" align="center" valign="middle">
@@ -60,7 +60,7 @@
     </td>
     <td width="50%" valign="top">
       <br>
-      <h3>🟩 Cloud & Platform</h3>
+      <h3>🟪 Cloud & Platform</h3>
       <p>Infraestructura multi-cloud (<b>AWS</b>, <b>Azure</b>) orientada a alta disponibilidad. Provisioning y automatización con <b>Terraform</b>, contenedores con <b>Docker</b> y orquestación con <b>Kubernetes</b>.</p>
       <h3>🟦 Backend Engineering</h3>
       <p>Microservicios y APIs REST escalables con <b>PHP / Laravel</b>, <b>Java</b> y <b>Node.js</b>. Diseño de bases de datos relacionales y capas de caché.</p>
@@ -116,12 +116,12 @@
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Trashercx&show_icons=true&bg_color=0A0E27&title_color=00FF87&text_color=C9D1D9&icon_color=FFD93D&border_color=00FF87&border_radius=0&rank_icon=github" height="165" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com/?user=Trashercx&background=0A0E27&border=60A5FA&ring=00FF87&fire=FFD93D&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00FF87&sideLabels=C9D1D9&dates=8FA3B8&border_radius=0" height="165" alt="GitHub streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Trashercx&show_icons=true&bg_color=0B0221&title_color=B14EFF&text_color=E6DDFF&icon_color=FF8C42&border_color=B14EFF&border_radius=0&rank_icon=github" height="165" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com/?user=Trashercx&background=0B0221&border=2DE2FF&ring=B14EFF&fire=FF8C42&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=B14EFF&sideLabels=E6DDFF&dates=9A8CC7&border_radius=0" height="165" alt="GitHub streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Trashercx&layout=compact&bg_color=0A0E27&title_color=00FF87&text_color=C9D1D9&border_color=FF5E8A&border_radius=0&langs_count=8" height="160" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Trashercx&layout=compact&bg_color=0B0221&title_color=B14EFF&text_color=E6DDFF&border_color=FF3CAC&border_radius=0&langs_count=8" height="160" alt="Top languages" />
 </div>
 
 <img src="https://raw.githubusercontent.com/Trashercx/Trashercx/main/assets/divider.svg" width="100%" alt="" />
